@@ -2,6 +2,7 @@ import "./App.css";
 import Row from "./Row";
 import requests from "./request";
 import Banner from "./Banner";
+import Nav from "./Nav";
 
 // key=======a734b462bbf147bd5ac9089ad53215dd
 // Example API Request===========
@@ -10,6 +11,7 @@ import Banner from "./Banner";
 function App() {
   return (
     <div className="App">
+      <Nav />
       <Banner />
       <Row
         title="Netflix Originals"
