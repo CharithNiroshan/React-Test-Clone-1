@@ -1,12 +1,8 @@
 import "./App.css";
-import Row from "./Row";
-import requests from "./request";
-import Banner from "./Banner";
-import Nav from "./Nav";
-
-// key=======a734b462bbf147bd5ac9089ad53215dd
-// Example API Request===========
-//https://api.themoviedb.org/3/movie/550?api_key=a734b462bbf147bd5ac9089ad53215dd
+import Row from "./Components/Row";
+import requests from "./Other Files/request";
+import Banner from "./Components/Banner";
+import Nav from "./Components/Nav";
 
 function App() {
   return (

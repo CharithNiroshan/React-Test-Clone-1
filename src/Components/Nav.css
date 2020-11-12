@@ -1,0 +1,19 @@
+.navbar {
+  box-sizing: border-box;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2000;
+  padding: 15px 30px;
+}
+
+.navbar img {
+  object-fit: contain;
+}
+
+.nav_black {
+  background-color: rgb(48, 46, 46);
+  transition: all 0.2s;
+}
